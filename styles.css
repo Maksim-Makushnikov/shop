@@ -224,8 +224,8 @@ header{
 
     padding:5px 10px;
 }
-figcaption.lg{
-
+figcaption.lg {
+    color: #49494F;
     background: #D0FD89;
 }
 .catalog{
@@ -242,4 +242,31 @@ figcaption.lg{
     width:1196px;
     margin:0 auto;
 }
-
+.g {
+    background: #AEBC41;
+    color: #FFFFFF;
+}
+.pur {
+    color: #FFFFFF;
+    background: #B86B78;
+}
+.or {
+    color: #FFFFFF;
+    background: #D68334;
+}
+.red {
+    color: #FFFFFF;
+    background: #CD6255;
+}
+.yel {
+    color: #49494F;
+    background: #FFFDBF;
+}
+.lo {
+    background: #F6FDC8;
+    color: #49494F;
+}
+.pink {
+    background: #FEF7FE;
+    color: #49494F;
+}
