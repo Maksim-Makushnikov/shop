@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto, Arial, sans-serif;
+    color:#000;      
+}
+button{
+    border:0;
+    cursor: pointer;
+}
+header{
+    max-width: 1196px;
+    margin:0 auto;
+    display:flex;
+    justify-content: space-between;
+    padding: 13px 0 20px; 
+}
+.logo{
+    display: flex;
+    width: 130px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    gap:5px;
+}
+.logo span{
+    align-self: center;
+}
+.search{
+    background: rgba(238, 238, 238, 0.71);
+    border-radius: 10px; 
+    border:0;
+    width:100%;
+    padding: 13px 55px 13px 20px;
+    margin-top:5px;
+}
+.search-icon{
+    background: transparent;
+    position: absolute;
+    top: 14px;
+    right:12px;
+}
+.search-form{
+    position: relative;
+    width:620px;
+
+}
+.enter{
+    background:#EBEBEB;
+    width: 99px;
+    border-radius: 50px;
+    font-size: 14px;
+    padding: 16px 29px;
+}
+.cart-icon{
+    width: 50px;
+    height: 54px;
+    background: url(images/cart.png) no-repeat;
+    position: relative;
+}
+.cart-index{
+    font-size: 8px;
+    background: #FFAF19;
+    width:18px;
+    height:18px;
+    border-radius: 50%;
+    position: absolute;
+    right:0;
+    bottom: 0;
+    padding: 5px;
+}
+.user-nav{
+    display: flex;
+    gap:31px;
+}
+.slider{
+    max-width: 1196px;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.slider-item h1{
+    font-size: 50px;
+    line-height: 51px;
+    width:380px;
+}
+.slider-item h2{
+    font-size: 16px;
+    line-height: 23px;
+    width: 389px;
+    margin-bottom: 32px;
+}
+.slider-bg1{
+    background-image: url(images/slider-bg1.png);
+}
+.slider-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding:77px 100px;
+}
+.slider-btn{
+    width:246px;
+    height: 48px;
+    background: #F47322 ;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    border-radius: 25px;
+    padding:13px 53px;
+}
+.slider-bg2{
+    background-image: url(images/slider-bg2.png);
+}
+.slider-bg3{
+    background-image: url(images/slider-bg3.png);
+}
+.slider-bg2 h1{
+    width: 407px;
+}
+.bonus{
+    max-width:1196px;
+    margin:50px auto;
+    display:flex;
+    gap:54px;
+}
+.bonus-bg1{
+    background-image: url(images/bonus-bg1.png);
+}
+.bonus-bg2{
+    background-image: url(images/bonus-bg2.png);
+}
+.bonus-item{
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-basis: 50%;
+    padding: 36px 32px 31px;
+    border-radius:20px;
+    color: #FFFFFF;
+}
+.bonus-item h3{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-top:0px;
+    margin-bottom: 21px;
+}
+.bonus-item p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    width:225px;
+    margin-top: 8px;
+}
+.bonus-item .price{
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 72px;
+    margin-bottom: 0px;
+}
+.bonus-btn{
+    background: #FFFFFF;
+    padding: 16px 52px;
+    border-radius: 50px;
+}
+.bonus .price span{
+    font-size: 30px;
+}
+.owl-carousel .owl-nav button.owl-prev{
+    background: url(images/arrow_left.png) no-repeat 50% 50% rgba(235, 235, 235, 0.7);
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.owl-carousel .owl-nav button.owl-next{
+    background: url(images/arrow_right.png) no-repeat 50% 50% rgba(235, 235, 235, 0.7);
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.owl-nav span{
+    display: none;
+}
+.owl-nav{
+    position: absolute;
+    right:46px;
+    bottom:39px;
+    display:flex;
+    gap:17px;
+}
+.delivery{
+    max-width:1196px;
+    margin:110px auto 0;
+    font-weight: 500;
+}
+.delivery h2{
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 47px;
+}
+.gallery{
+    display: flex;
+    gap:32px;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+.gallery figure{
+    border-radius: 18px;
+    position: relative;
+    margin:0;
+}
+.gallery img{
+    border-radius: 18px;
+}
+.gallery figcaption{
+    position: absolute;
+    top:16px;
+    left:10px;
+    border-radius: 30px;
+    font-weight: 500;
+    font-size: 20px;
+
+    padding:5px 10px;
+}
+figcaption.lg{
+
+    background: #D0FD89;
+}
+.catalog{
+    background: #F6F6F6;
+    width: 100%;
+    padding:40px 0 172px;
+    margin-top: 100px;
+}
+.catalog h2{
+    font-weight: 500;
+    font-size: 32px;
+}
+.categories{
+    width:1196px;
+    margin:0 auto;
+}
+
