@@ -3,11 +3,14 @@
 }
 body{
     font-family: Roboto, Arial, sans-serif;
-    color:#000;      
+    color:#000;     
 }
 button{
     border:0;
     cursor: pointer;
+}
+a{
+    text-decoration: none;
 }
 header{
     max-width: 1196px;
@@ -42,6 +45,9 @@ header{
     position: absolute;
     top: 14px;
     right:12px;
+}
+.search-mobile{
+    display: none;
 }
 .search-form{
     position: relative;
@@ -210,9 +216,11 @@ header{
     border-radius: 18px;
     position: relative;
     margin:0;
+    flex-basis: calc((100% - 32px*3) / 4);
 }
 .gallery img{
     border-radius: 18px;
+    max-width:100%;
 }
 .gallery figcaption{
     position: absolute;
@@ -239,7 +247,7 @@ figcaption.lg {
     font-size: 32px;
 }
 .categories{
-    width:1196px;
+    max-width:1196px;
     margin:0 auto;
 }
 .g {
@@ -269,4 +277,171 @@ figcaption.lg {
 .pink {
     background: #FEF7FE;
     color: #49494F;
+}
+.categories ul{
+    list-style: none;
+    margin: 50px 0 62px;
+    padding:0;
+    display: flex;
+    gap:58px;
+}
+.categories a{
+    font-size: 20px;
+    color: #49494F;
+}
+.food-item{
+    background: #FFFFFF;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    flex-basis: calc((100% - 37px*3) / 4);
+}
+.food-item img{
+    border-radius: 20px 20px 0 0;
+    max-width:100%;
+}
+.food-item h3{
+
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 21px 23px 13px;
+}
+.food-item p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+    color: #B9B9BE; 
+    margin: 13px 27px 36px 23px;
+}
+.food-details .price{
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 23px;
+    color: #4B4B51;
+}
+.food-details .weight{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #AAAAB1;
+    margin-top:5px ;
+}
+.food-cart{
+    font-weight: 500;
+    font-size: 16px;
+    color: #F37321;
+    background: #FFFFFF;
+    border: 2px solid #F37321;
+    border-radius: 33px;
+    padding:16px 25px;
+}
+.food-info{
+    display: flex;
+    margin: 36px 24px 0 23px;
+    justify-content: space-between;
+    padding-bottom: 21px;
+}
+.food-details{
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+.food-examples{
+    display: flex;
+    flex-wrap:wrap;
+    gap:37px;
+}
+.ui-tabs-active a{
+    color: #F37321;
+}
+.benefits{
+    max-width: 1191px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 202px;
+}
+.benefits-item svg{
+    fill:#F37321;
+    stroke:#F37321;
+}
+.benefits-item:hover svg{
+    fill:#fff;
+    stroke:#fff;
+}
+
+.benefits-item{
+    border: 1px solid #E9E9E9;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    padding: 30px 23px 25px 24px;
+    text-align: center;
+    flex-basis: calc((100% - 37px*3) / 4);
+}
+.benefits-item h3{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+.benefits-item p{
+    font-size: 14px;
+    line-height: 22px;
+    color: #49494F;
+}
+.benefits-item:hover{
+    background: #F37321;
+    border: 1px solid #F37321;
+    box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    color:#fff;
+}
+.benefits-item:hover p{
+    color:#fff;
+}
+.benefits-cards{
+    display: flex;
+    gap:37px;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.benefits h2{
+    margin-bottom: 52px;
+}
+footer{
+    background: #F6F6F6;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.footer-content{
+    max-width:1191px;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info{
+    display: flex;
+    gap:50px;
+}
+footer ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-self: center;
+}
+.footer-info ul a{
+    font-size: 16px;
+    color: #000000;
+    text-decoration: underline;
+}
+.social{
+    display: flex;
+    gap:20px;
+    align-items: center;
+}
+footer .logo{
+    height: 101px;
+    font-size: 23px;
+    line-height: 28px;
+    width: 205px;
 }

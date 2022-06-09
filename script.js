@@ -9,4 +9,5 @@ $(document).ready(function(){
         smartSpeed:500,
         autoplayTimeout:5000
     });
+    $('#tabset').tabs();
 });
